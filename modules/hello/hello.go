@@ -27,5 +27,10 @@ func main() {
 
 	// If no error was returned, print the returned message
 	// to the console.
-	fmt.Println(message)
+	//fmt.Println(message)
+
+	// Print each message seperately
+	for _, m := range message {
+		fmt.Println(m)
+	}
 }
